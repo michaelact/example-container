@@ -81,7 +81,6 @@ appy         latest    789ghi101112   15 seconds ago   1.3GB
 ### 5. Deploy the Application
 Each application directory contains a `docker-compose.yml` file, which defines how the container should be run. To start the application, use Docker Compose:
 
-For **App X**:
 ```bash
 docker compose up -d
 ```
