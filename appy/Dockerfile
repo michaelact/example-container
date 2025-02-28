@@ -1,8 +1,7 @@
 # This file is used by `docker build`
 
-FROM ubuntu:22.04
-
-RUN apt-get update && apt-get install -y python3.12 python3-pip
+# https://hub.docker.com/_/python/tags?name=3.12
+FROM python:3.12-bookworm
 
 COPY requirements.txt .
 

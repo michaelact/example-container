@@ -1,8 +1,7 @@
 # This file is used by `docker build`
 
-FROM ubuntu:20.04
-
-RUN apt-get update && apt-get install -y python3.10 python3-pip
+# https://hub.docker.com/_/python/tags?name=3.10
+FROM python:3.10-bullseye
 
 COPY requirements.txt .
 
