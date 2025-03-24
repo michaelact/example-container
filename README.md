@@ -49,12 +49,12 @@ Each application has its own `Dockerfile`, which defines how the application is 
 
 For **App X**:
 ```bash
-docker build -t appx .
+docker build --no-cache -t appx .
 ```
 
 For **App Y**:
 ```bash
-docker build -t appy .
+docker build --no-cache -t appy .
 ```
 
 **What this does**:
