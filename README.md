@@ -72,8 +72,8 @@ docker images
 **Expected Output**:
 ```
 REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-appx         latest    abcdef123456   10 seconds ago   1.2GB
-appy         latest    789ghi101112   15 seconds ago   1.3GB
+appx         latest    abcdef123456   10 seconds ago   925MB
+appy         latest    789ghi101112   15 seconds ago   925MB
 ```
 
 ---
