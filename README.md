@@ -2,7 +2,7 @@
 
 ## Conflicting Dependencies
 
-**Imagine this**: *Your server runs two applications. App X needs Python 3.10 & kernel X, while App Y requires Python 3.12 and kernel Y. These conflicting dependencies can exist on the same server. That’s where containers come in.*
+**Imagine this**: *Your server runs two applications. App X needs Python 3.10 & Debian 11, while App Y requires Python 3.12 and Debian 12. These conflicting dependencies can exist on the same server. That’s where containers come in.*
 
 ## Prerequisites
 
